@@ -12,6 +12,7 @@
         <module>data</module>
         <module>personalization</module>
         <module>web</module>
+        <module>common</module>
     </modules>
 
     <parent>

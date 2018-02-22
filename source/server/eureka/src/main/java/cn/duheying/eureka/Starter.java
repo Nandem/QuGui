@@ -1,6 +1,8 @@
 package cn.duheying.eureka;
 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * All rights Reserved, Designed By hxjd
@@ -15,6 +17,8 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
  * 注　意：本内容仅限于华夏九鼎内部传阅，禁止外泄以及用于其他的商业目的
  * 描　述: TODO(用一句话描述该文件做什么)
  */
+@EnableEurekaServer
+@SpringBootApplication
 public class Starter
 {
     public static void main(String[] args)
