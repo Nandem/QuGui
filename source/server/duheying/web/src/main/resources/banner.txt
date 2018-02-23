@@ -1,0 +1,6 @@
+
+  应用名称：渡鹤影服务提供端
+  版　　本：1.0-SNAPSHOT
+
+  框　　架：Spring Boot
+  版　　本：${spring-boot.version}
